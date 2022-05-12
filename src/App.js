@@ -41,9 +41,13 @@ function App() {
     }
   }
 
-  window.ethereum.on("chainChanged", (chainId) => {
-    initializeWeb3();
-  });
+  try {
+    window.ethereum.on("chainChanged", (chainId) => {
+      initializeWeb3();
+    });
+  } catch (error) {
+    // console.log(error);
+  }
 
   const connectWallet = async () => {
     if (await detectEthereumProvider()) {
