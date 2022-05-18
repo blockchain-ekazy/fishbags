@@ -1,620 +1,638 @@
 /*Font Family Used In Website*/
 /*Inter (Integrated From Google Fonts Library)*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
 
-@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-.inter {
-  font-family: "Inter", sans-serif !important;
-}
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+ .inter {
+ 	font-family: 'Inter', sans-serif !important;
+ }
 
 .vt323 {
-  font-family: "VT323", monospace !important;
+	font-family: 'VT323', monospace !important;
 }
 
 .epilogue {
-  font-family: "Epilogue", sans-serif !important;
+	font-family: 'Epilogue', sans-serif !important;
 }
 
-body {
-  font-family: "Inter", sans-serif !important;
-  font-weight: 400;
-  overflow-x: hidden;
-}
+ body {
+ 		font-family: 'Inter', sans-serif !important;
+ 	font-weight: 400;
+ 	overflow-x: hidden;
+ }
 
-body .container {
-  width: 100%;
-  max-width: 1170px;
-}
 
-body img {
-  max-width: 100%;
-}
+ body .container {
+ 	width: 100%;
+ 	max-width: 1170px;
+ }
 
-section,
-header,
-footer {
-  float: left;
-  width: 100%;
+ body img {
+ 	max-width: 100%;
+ }
+
+section , header , footer {
+    float: left;
+    width: 100%;
 }
 
 a {
-  transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  cursor: pointer !important;
-  display: inline-block;
-  text-decoration: none !important;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    cursor: pointer !important;
+    display: inline-block;
+    text-decoration: none !important;
 }
 
-.custom-scroll1::-webkit-scrollbar-track {
-  background-color: #f5f5f5;
+
+
+
+.custom-scroll1::-webkit-scrollbar-track
+{
+ 
+ 
+    background-color: #F5F5F5;
 }
 
-.custom-scroll1::-webkit-scrollbar {
-  width: 8px;
-  background-color: #00b22d;
+.custom-scroll1::-webkit-scrollbar
+{
+    width: 8px;
+    background-color: #00b22d;
 }
 
-.custom-scroll1::-webkit-scrollbar-thumb {
-  background-color: #d8d8d8;
+.custom-scroll1::-webkit-scrollbar-thumb
+{
+ 
+ 
+    background-color: #d8d8d8;
 }
+
+
 
 .col-white {
-  color: white !important;
+	color:white !important;
 }
 .col-black {
-  color: black !important;
+	color:black !important;
 }
 
 .bg-white {
-  background: white !important;
+	background:white !important;
 }
 
 .bg-black {
-  background: black !important;
+	background:black !important;
 }
+
+
+
 
 .pad-top-20 {
-  padding-top: 20px !important;
+	padding-top: 20px !important
 }
 .pad-top-40 {
-  padding-top: 40px !important;
+	padding-top: 40px !important
 }
 .pad-top-60 {
-  padding-top: 60px !important;
+	padding-top: 60px !important
 }
 .pad-top-80 {
-  padding-top: 80px !important;
+	padding-top: 80px !important
 }
 
+
 .pad-bot-20 {
-  padding-bottom: 20px !important;
+	padding-bottom: 20px !important
 }
 .pad-bot-40 {
-  padding-bottom: 40px !important;
+	padding-bottom: 40px !important
 }
 .pad-bot-60 {
-  padding-bottom: 60px !important;
+	padding-bottom: 60px !important
 }
 .pad-bot-80 {
-  padding-bottom: 80px !important;
+	padding-bottom: 80px !important
 }
 
 .m-b-10 {
-  margin-bottom: 10px !important;
+	margin-bottom: 10px !important
 }
 .m-b-20 {
-  margin-bottom: 20px !important;
+	margin-bottom: 20px !important
 }
 .m-b-30 {
-  margin-bottom: 30px !important;
+	margin-bottom: 30px !important
 }
 .m-b-40 {
-  margin-bottom: 40px !important;
+	margin-bottom: 40px !important
 }
 .m-b-50 {
-  margin-bottom: 50px !important;
+	margin-bottom: 50px !important
 }
+
 
 .m-t-10 {
-  margin-top: 10px !important;
+	margin-top: 10px !important
 }
 .m-t-20 {
-  margin-top: 20px !important;
+	margin-top: 20px !important
 }
 .m-t-30 {
-  margin-top: 30px !important;
+	margin-top: 30px !important
 }
 .m-t-40 {
-  margin-top: 40px !important;
+	margin-top: 40px !important
 }
 .m-t-50 {
-  margin-top: 50px !important;
+	margin-top: 50px !important
 }
+
 
 .no-margin {
-  margin: 0px !important;
+	margin:0px !important;
 }
 .no-pad {
-  padding: 0px !important;
+	padding:0px !important;
 }
+
 
 .modal-dialog {
-  top: 50%;
-  margin: 0px auto !important;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%) !important;
+    top: 50%;
+    margin: 0px auto !important;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%) !important;
 }
 
+
 .body-wrapper {
-  float: left;
-  width: 100%;
-  background: #aeaeae;
-  box-shadow: inset -1.00417px -1.00417px 0px #000000,
-    inset 1.00417px 1.00417px 0px #dbdbdb,
-    inset -2.00833px -2.00833px 0px #808080,
-    inset 2.00833px 2.00833px 0px #ffffff;
+    float: left;
+    width: 100%;
+    background: #AEAEAE;
+    box-shadow: inset -1.00417px -1.00417px 0px #000000, inset 1.00417px 1.00417px 0px #dbdbdb, inset -2.00833px -2.00833px 0px #808080, inset 2.00833px 2.00833px 0px #ffffff;
 }
 
 .block-element {
-  float: left;
-  width: 100%;
+	float: left;
+	width: 100%;
 }
 
 .col-black1 {
-  color: #323232 !important;
+	color:#323232 !important;
 }
+ 
 
 .banner-1 {
-  width: 100%;
-  margin-bottom: 50px;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
+
+
 .banner-1 img {
-  width: 100%;
+    width: 100%;
 }
 
 .custom-block1 {
-  float: left;
-  width: 100%;
-  background: #c3c3c3;
-  box-shadow: inset -2.00833px -2.00833px 0px #262626,
-    inset 2.00833px 2.00833px 0px #f0f0f0,
-    inset -4.01667px -4.01667px 0px #7e7e7e;
+    float: left;
+    width: 100%;
+    background: #C3C3C3;
+    box-shadow: inset -2.00833px -2.00833px 0px #262626, inset 2.00833px 2.00833px 0px #f0f0f0, inset -4.01667px -4.01667px 0px #7e7e7e;
 }
 
 .sec-head {
-  float: left;
-  width: 99.6%;
-  background: linear-gradient(270deg, #1085d2 0%, #00007b 100%);
-  padding: 0px 30px;
-  margin-left: 0.2%;
-  margin-top: 2px;
+    float: left;
+    width: 99.6%;
+    background: linear-gradient(270deg, #1085D2 0%, #00007B 100%);
+    padding: 0px 30px;
+    margin-left: 0.2%;
+    margin-top: 2px;
 }
 .sec-head h3 {
-  margin: 0px 0px 0px 0px;
-  font-size: 40px;
-  letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    font-size: 40px;
+    letter-spacing: 1.5px;
 }
 
 .content-block1 {
-  float: left;
-  width: 100%;
-  padding: 40px 60px;
+    float: left;
+    width: 100%;
+    padding: 40px 60px;
 }
 
+
+
 .textual-block1 {
-  float: left;
-  width: 100%;
-  margin-bottom: 60px;
+    float: left;
+    width: 100%;
+    margin-bottom: 60px;
 }
 
 .textual-block1 h4 {
-  margin: 0px 0px 10px 0px;
-  font-weight: 700;
-  letter-spacing: 0.2px;
+    margin: 0px 0px 10px 0px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
 }
 .textual-block1 p {
-  margin: 0px;
-  letter-spacing: 0.4px;
+    margin: 0px;
+    letter-spacing: 0.4px;
 }
 .form-field1 {
-  float: left;
-  width: 100%;
-  margin-bottom: 25px;
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
 }
 .field-style1 {
-  width: 100%;
-  background: #c3c3c3;
-  box-shadow: inset 2.00833px 2.00833px 0px #262626,
-    inset -2.00833px -2.00833px 0px #f0f0f0,
-    inset 3.01667px 3.01667px 0px #7e7e7e;
-  border: none;
-  height: 60px;
-  padding: 0px 20px;
-  font-weight: 600;
-  letter-spacing: 0.4px;
-  color: black;
-  font-size: 16px;
+    width: 100%;
+    background: #C3C3C3;
+    box-shadow: inset 2.00833px 2.00833px 0px #262626, inset -2.00833px -2.00833px 0px #f0f0f0, inset 3.01667px 3.01667px 0px #7e7e7e;
+    border: none;
+    height: 60px;
+    padding: 0px 20px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    color: black;
+    font-size: 16px;
 }
 .field-style1::placeholder {
-  color: black;
+	color:black;
 }
+
 
 .info-tag1 {
-  font-size: 14px;
-  letter-spacing: 0.5px;
-  font-weight: 500;
-  margin-top: 15px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    margin-top: 15px;
 }
 
+
+
+
+
+
+
+
+
+
 .custom-block2 {
-  float: left;
-  width: 100%;
-  background: #bfbfbf;
-  box-shadow: inset -1.00417px -1.00417px 0px #000000,
-    inset 1.00417px 1.00417px 0px #dbdbdb,
-    inset -2.00833px -2.00833px 0px #808080,
-    inset 2.00833px 2.00833px 0px #ffffff;
+    float: left;
+    width: 100%;
+    background: #bfbfbf;
+    box-shadow: inset -1.00417px -1.00417px 0px #000000, inset 1.00417px 1.00417px 0px #dbdbdb, inset -2.00833px -2.00833px 0px #808080, inset 2.00833px 2.00833px 0px #ffffff;
 }
 .sec-head2 {
-  float: left;
-  width: 99.5%;
-  background: linear-gradient(270deg, #1085d2 0%, #00007b 100%);
-  padding: 7px 30px;
-  margin-left: 0.3%;
-  margin-top: 2px;
+    float: left;
+    width: 99.5%;
+    background: linear-gradient(270deg, #1085D2 0%, #00007B 100%);
+    padding: 7px 30px;
+    margin-left: 0.3%;
+    margin-top: 2px;
 }
 .sec-head2 h4 {
-  margin: 0px 0px 0px 0px;
-  font-size: 34px;
-  letter-spacing: 2px;
+    margin: 0px 0px 0px 0px;
+    font-size: 34px;
+    letter-spacing: 2px;
 }
 
 .textual-block2 {
-  float: left;
-  width: 100%;
-  padding: 5px 30px;
+    float: left;
+    width: 100%;
+    padding: 5px 30px;
 }
 
 .textual-block2 h5 {
-  font-size: 19px;
-  margin: 18px 0px 20px 0px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  text-transform: capitalize;
+    font-size: 19px;
+    margin: 18px 0px 20px 0px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
 }
 .custom-btn1 {
-  color: white;
-  background: #c3c3c3;
-  box-shadow: inset 2.00833px 2.00833px 0px #262626,
-    inset -2.00833px -2.00833px 0px #f0f0f0,
-    inset 3.01667px 3.01667px 0px #7e7e7e;
-  border: none;
-  font-size: 40px;
-  letter-spacing: 1px;
-  padding: 2px 12px;
-  line-height: 38px;
+    color: white;
+    background: #C3C3C3;
+    box-shadow: inset 2.00833px 2.00833px 0px #262626, inset -2.00833px -2.00833px 0px #f0f0f0, inset 3.01667px 3.01667px 0px #7e7e7e;
+    border: none;
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding: 2px 12px;
+    line-height: 38px;
 }
 
 .sec-wid-left {
-  flex: 0 0 60%;
-  max-width: 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
 }
 
 .sec-wid-right {
-  flex: 0 0 40%;
-  max-width: 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
 }
 
 .cta-box {
-  background: #c3c3c3;
-  box-shadow: inset -2.00833px -2.00833px 0px #262626,
-    inset 1.00833px 1.00833px 0px #f0f0f0,
-    inset -2.01667px -2.01667px 0px #7e7e7e;
-  float: left;
-  width: 100%;
-  border: 1px solid black;
-  padding: 10px 10px;
-  margin-top: 50px;
-  margin-bottom: 60px;
+    background: #C3C3C3;
+    box-shadow: inset -2.00833px -2.00833px 0px #262626, inset 1.00833px 1.00833px 0px #f0f0f0, inset -2.01667px -2.01667px 0px #7e7e7e;
+    float: left;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px 10px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 .cta-box div {
-  float: left;
-  width: 100%;
-  position: relative;
-  border: 1px dashed #000000;
-  padding: 22px 0px 23px 110px;
-  color: black;
-  font-weight: 600;
-  font-size: 21px;
-  letter-spacing: 0.6px;
-  line-height: 29px;
-  text-transform: capitalize;
+    float: left;
+    width: 100%;
+    position: relative;
+    border: 1px dashed #000000;
+    padding: 22px 0px 23px 110px;
+    color: black;
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: 0.6px;
+    line-height: 29px;
+    text-transform: capitalize;
 }
 .cta-box div img {
-  width: 55px;
-  position: absolute;
-  left: 6%;
-  top: 18%;
+    width: 55px;
+    position: absolute;
+    left: 6%;
+    top: 18%;
 }
 .custom-block3 {
-  float: left;
-  width: 100%;
-  background: #bfbfbf;
-  box-shadow: inset -1.00417px -1.00417px 0px #000000,
-    inset 1.00417px 1.00417px 0px #dbdbdb,
-    inset -2.00833px -2.00833px 0px #808080,
-    inset 2.00833px 2.00833px 0px #ffffff;
+    float: left;
+    width: 100%;
+    background: #bfbfbf;
+    box-shadow: inset -1.00417px -1.00417px 0px #000000, inset 1.00417px 1.00417px 0px #dbdbdb, inset -2.00833px -2.00833px 0px #808080, inset 2.00833px 2.00833px 0px #ffffff;
 }
 
 .sec-head3 {
-  float: left;
-  width: 99%;
-  background: linear-gradient(270deg, #1085d2 0%, #00007b 100%);
-  padding: 0px 30px;
-  margin-left: 0.5%;
-  margin-top: 2px;
+    float: left;
+    width: 99%;
+    background: linear-gradient(270deg, #1085D2 0%, #00007B 100%);
+    padding: 0px 30px;
+    margin-left: 0.5%;
+    margin-top: 2px;
 }
 
+
 .sec-head3 h4 {
-  background: #c3c3c3;
-  box-shadow: inset 2.00833px 2.00833px 0px #262626,
-    inset -1.00833px -1.00833px 0px #f0f0f0,
-    inset 3.01667px 3.01667px 0px #7e7e7e;
-  text-align: center;
-  width: 200px;
-  margin: 7px auto;
-  font-size: 34px;
-  letter-spacing: 1px;
+    background: #C3C3C3;
+    box-shadow: inset 2.00833px 2.00833px 0px #262626, inset -1.00833px -1.00833px 0px #f0f0f0, inset 3.01667px 3.01667px 0px #7e7e7e;
+    text-align: center;
+    width: 200px;
+    margin: 7px auto;
+    font-size: 34px;
+    letter-spacing: 1px;
 }
 
 .step-form {
-  float: left;
-  width: 100%;
-  padding: 0px 30px 0px 30px;
+    float: left;
+    width: 100%;
+    padding: 0px 30px 0px 30px;
 }
 .step-form-head {
-  float: left;
-  width: 100%;
-  margin-bottom: 15px;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
 }
 .step-form-head h3 {
-  background: #c3c3c3;
-  box-shadow: inset -2.00833px -2.00833px 0px #262626,
-    inset 1.00833px 1.00833px 0px #f0f0f0,
-    inset -2.01667px -3.01667px 0px #7e7e7e;
-  display: inline-block;
-  padding: 5px 5px;
-  margin: 0px;
-  border: 1px solid black;
+    background: #C3C3C3;
+    box-shadow: inset -2.00833px -2.00833px 0px #262626, inset 1.00833px 1.00833px 0px #f0f0f0, inset -2.01667px -3.01667px 0px #7e7e7e;
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 0px;
+    border: 1px solid black;
 }
 .step-form-head h3 span {
-  border: 1px dashed black;
-  text-decoration: underline;
-  padding: 2px 22px;
-  display: inline-block;
-  line-height: 26px;
-  font-size: 21px;
-  letter-spacing: 1px;
+    border: 1px dashed black;
+    text-decoration: underline;
+    padding: 2px 22px;
+    display: inline-block;
+    line-height: 26px;
+    font-size: 21px;
+    letter-spacing: 1px;
 }
 
 .step-form-data {
-  float: left;
-  padding: 17px 15px 15px 15px;
-  width: 100%;
-  background: #c3c3c3;
-  box-shadow: inset 2.00833px 2.00833px 0px #262626,
-    inset -1.00833px -1.00833px 0px #f0f0f0,
-    inset 3.01667px 3.01667px 0px #7e7e7e;
+    float: left;
+    padding: 17px 15px 15px 15px;
+    width: 100%;
+    background: #C3C3C3;
+    box-shadow: inset 2.00833px 2.00833px 0px #262626, inset -1.00833px -1.00833px 0px #f0f0f0, inset 3.01667px 3.01667px 0px #7e7e7e;
 }
 
+
+
 label.checkbox-label1 {
-  display: block;
-  margin: 0px 0px 5px 0px;
-  font-size: 16px;
-  letter-spacing: 0.4px;
-  position: relative;
-  padding-left: 25px;
-  cursor: pointer;
+    display: block;
+    margin: 0px 0px 5px 0px;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
 }
 
 label.checkbox-label1:nth-last-child(1) {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 label.checkbox-label1 input {
-  position: absolute;
-  left: 2px;
-  top: 4px;
+    position: absolute;
+    left: 2px;
+    top: 4px;
 }
 
 .wrapper-2 {
-  float: left;
-  width: 100%;
-  margin-top: 20px;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .custom-btn2 {
-  background: #c3c3c3;
-  box-shadow: inset -2.00833px -2.00833px 0px #262626,
-    inset 1.00833px 1.00833px 0px #f0f0f0,
-    inset -2.01667px -3.01667px 0px #7e7e7e;
-  display: inline-block;
-  padding: 5px 5px;
-  margin: 0px;
-  border: 1px solid black;
-  text-decoration: underline;
-  font-size: 18px;
-  letter-spacing: 1px;
+    background: #C3C3C3;
+    box-shadow: inset -2.00833px -2.00833px 0px #262626, inset 1.00833px 1.00833px 0px #f0f0f0, inset -2.01667px -3.01667px 0px #7e7e7e;
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-decoration: underline;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 .custom-btn2 span {
-  border: 1px dashed black;
-  text-decoration: underline;
-  padding: 2px 26px;
-  display: inline-block;
-  line-height: 26px;
-  font-size: 21px;
-  letter-spacing: 1px;
+    border: 1px dashed black;
+    text-decoration: underline;
+    padding: 2px 26px;
+    display: inline-block;
+    line-height: 26px;
+    font-size: 21px;
+    letter-spacing: 1px;
 }
 
-.custom-btn2:disabled,
-.custom-btn1:disabled,
-.custom-btn2:hover,
-.custom-btn1:hover {
-  background: linear-gradient(270deg, #1085d2 0%, #00007b 100%);
-  color: white;
+.custom-btn2:hover , .custom-btn1:hover {
+    background:linear-gradient(270deg, #1085D2 0%, #00007B 100%);
+    color:white;
 }
 
 .upper {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
+
 .wrapper-3 {
-  float: left;
-  width: 100%;
-  margin-bottom: 60px;
+    float: left;
+    width: 100%;
+    margin-bottom: 60px;
 }
 
 .content-block2 {
-  float: left;
-  width: 100%;
-  padding: 32px 40px;
+    float: left;
+    width: 100%;
+    padding: 32px 40px;
 }
 .form-head {
-  float: left;
-  width: 100%;
-  background: #ebebeb;
-  padding: 0px 15px;
-  margin-bottom: 30px;
+    float: left;
+    width: 100%;
+    background: #EBEBEB;
+    padding: 0px 15px;
+    margin-bottom: 30px;
 }
 .form-head h3 {
-  font-size: 26px;
-  letter-spacing: 0.7px;
-  margin: 6px 0px 6px 0px;
+    font-size: 26px;
+    letter-spacing: 0.7px;
+    margin: 6px 0px 6px 0px;
 }
 
 .form-head h3 svg {
-  float: right;
-  font-size: 18px;
-  margin-top: 6px;
+    float: right;
+    font-size: 18px;
+    margin-top: 6px;
 }
 .form-content {
-  float: left;
-  width: 100%;
-  padding: 0px 10px;
+    float: left;
+    width: 100%;
+    padding: 0px 10px;
 }
 
+
+
 label.checkbox-label2 {
-  display: block;
-  margin: 0px 0px 7px 0px;
-  font-size: 15px;
-  letter-spacing: 0.2px;
-  position: relative;
-  padding-left: 25px;
-  cursor: pointer;
+    display: block;
+    margin: 0px 0px 7px 0px;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
 }
 
 label.checkbox-label2:nth-last-child(1) {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 label.checkbox-label2 input {
-  position: absolute;
-  left: 2px;
-  top: 4px;
+    position: absolute;
+    left: 2px;
+    top: 4px;
 }
 
 .page-content {
-  float: left;
-  width: 100%;
-  padding: 50px 0px;
+    float: left;
+    width: 100%;
+        padding: 50px 0px;
 }
 
 header {
-  background: linear-gradient(
-    180deg,
-    #1085d2 1.56%,
-    rgba(0, 0, 123, 0.77) 100%
-  );
-  padding: 5px 0px;
+    background: linear-gradient(180deg, #1085D2 1.56%, rgba(0, 0, 123, 0.77) 100%);
+    padding: 5px 0px;
 }
+
 
 .logo {
-  float: left;
+    float: left;
 }
+
 
 .logo a {
-  font-size: 26px;
-  letter-spacing: 0.5px;
-  display: inline-block;
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    display: inline-block;
 }
+
 
 .navbar-custom {
-  float: left;
-  margin-left: 6%;
-  width: 75%;
+    float: left;
+    margin-left: 6%;
+    width: 75%;
 }
+
 
 .menu-item {
-  float: left;
-  margin-right: 60px;
+    float: left;
+    margin-right: 60px;
 }
 
+
 .menu-item a {
-  color: white;
-  padding: 9px 0px;
-  letter-spacing: 0.6px;
-  font-size: 14px;
+    color: white;
+    padding: 9px 0px;
+    letter-spacing: 0.6px;
+    font-size: 14px;
 }
 
 .menu-btn {
-  float: right;
+    float: right;
 }
+
 
 .menu-btn a {
-  background: #c3c3c3;
-  box-shadow: inset 2.00833px 2.00833px 0px #262626,
-    inset -1.00833px -1.00833px 0px #f0f0f0,
-    inset 3.01667px 3.01667px 0px #7e7e7e;
-  color: white;
-  padding: 4px 12px;
-  letter-spacing: 2px;
-  font-size: 20px;
+    background: #C3C3C3;
+    box-shadow: inset 2.00833px 2.00833px 0px #262626, inset -1.00833px -1.00833px 0px #f0f0f0, inset 3.01667px 3.01667px 0px #7e7e7e;
+    color: white;
+    padding: 4px 12px;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
 .navbar-handler {
-  display: none;
+    display: none;
 }
 
+
+
 .nav-actions {
-  float: right;
+    float: right;
 }
 
 .nav-actions a {
-  background: #e9e9e9;
-  box-shadow: inset 1.00417px 1.00417px 1.00417px rgb(0 0 0 / 25%),
-    inset -1.00417px -1.00417px 1.00417px rgb(108 107 107 / 25%);
-  padding: 0px 5px;
+    background: #E9E9E9;
+    box-shadow: inset 1.00417px 1.00417px 1.00417px rgb(0 0 0 / 25%), inset -1.00417px -1.00417px 1.00417px rgb(108 107 107 / 25%);
+    padding: 0px 5px;
 }
 .nav-actions a:hover {
-  background: white;
-}
+      background:white;
 
+}
+ 
 .nav-actions a img {
-  width: 11px;
+    width: 11px;
 }
 .nav-actions {
-  float: right;
-  margin-top: 7px;
+    float: right;
+    margin-top: 7px;
 }
+
 
 /*Media Queries Of Website*/
 
 /*Small Laptops*/
-@media screen and (max-width: 992px) and (min-width: 768px) {
-  .cta-box div {
+@media screen and (max-width:992px) and (min-width:768px) { 
+
+.cta-box div {
     float: left;
     width: 100%;
     position: relative;
@@ -626,63 +644,65 @@ header {
     letter-spacing: 0.6px;
     line-height: 25px;
     text-transform: capitalize;
-  }
+}
 
-  .cta-box div img {
+.cta-box div img {
     width: 45px;
     position: absolute;
     left: 6%;
     top: 18%;
-  }
-  .cta-box div {
+}
+.cta-box div {
     padding: 20px 0px 20px 80px;
-  }
-  .menu-item {
+}
+.menu-item {
     float: left;
     margin-right: 40px;
-  }
-  .navbar-custom {
+}
+.navbar-custom {
     float: left;
     margin-left: 5%;
     width: 65%;
-  }
 }
+}
+
 
 /*Tablet Devices*/
-@media screen and (max-width: 767px) and (min-width: 520px) {
-  .sec-wid-left {
+@media screen and (max-width:767px) and (min-width:520px) { 
+.sec-wid-left {
     flex: 0 0 100%;
     max-width: 100%;
-  }
+}
 
-  .sec-wid-right {
+.sec-wid-right {
     flex: 0 0 100%;
     max-width: 100%;
-  }
+}
 
-  .sec-head2 h4 {
+.sec-head2 h4 {
     margin: 0px 0px 0px 0px;
     font-size: 30px;
     letter-spacing: 2px;
-  }
+}
 
-  .textual-block2 h5 {
+
+.textual-block2 h5 {
     font-size: 16px;
     margin: 14px 0px 14px 0px;
     font-weight: 500;
     letter-spacing: 0.5px;
     text-transform: capitalize;
-  }
-  .custom-btn1 {
+}
+.custom-btn1 {
     font-size: 32px;
-  }
-  .cta-box div img {
+}
+.cta-box div img {
     width: 40px;
     position: absolute;
     left: 6%;
     top: 18%;
-  }
-  .cta-box div {
+}
+.cta-box div {
     float: left;
     width: 100%;
     position: relative;
@@ -694,14 +714,14 @@ header {
     letter-spacing: 0.6px;
     line-height: 25px;
     text-transform: capitalize;
-  }
-  .sec-head3 h4 {
+}
+.sec-head3 h4 {
     width: 180px;
     margin: 7px auto;
     font-size: 30px;
     letter-spacing: 1px;
-  }
-  .step-form-head h3 span {
+}
+.step-form-head h3 span {
     border: 1px dashed black;
     text-decoration: underline;
     padding: 1px 22px;
@@ -709,14 +729,14 @@ header {
     line-height: 26px;
     font-size: 19px;
     letter-spacing: 1px;
-  }
+}
 
-  .step-form {
+.step-form {
     float: left;
     width: 100%;
     padding: 0px 20px 0px 20px;
-  }
-  label.checkbox-label1 {
+}
+label.checkbox-label1 {
     display: block;
     margin: 0px 0px 5px 0px;
     font-size: 15px;
@@ -724,46 +744,46 @@ header {
     position: relative;
     padding-left: 25px;
     cursor: pointer;
-  }
-  .custom-block3 {
+}
+.custom-block3 {
     margin-bottom: 50px;
-  }
-  .sec-head h3 {
+}
+.sec-head h3 {
     margin: 5px 0px 5px 0px;
     font-size: 32px;
     letter-spacing: 1.5px;
-  }
-  .content-block1 {
+}
+.content-block1 {
     float: left;
     width: 100%;
     padding: 30px 30px;
-  }
-  .textual-block1 {
+}
+.textual-block1 {
     float: left;
     width: 100%;
     margin-bottom: 40px;
-  }
-  .field-style1 {
+}
+.field-style1 {
     height: 45px;
     font-size: 15px;
-  }
-  .info-tag1 {
+}
+.info-tag1 {
     font-size: 14px;
     letter-spacing: 0.5px;
     font-weight: 500;
     margin-top: 10px;
-  }
-  .content-block2 {
+}
+.content-block2 {
     float: left;
     width: 100%;
     padding: 30px 30px;
-  }
-  .form-head h3 {
+}
+.form-head h3 {
     font-size: 24px;
     letter-spacing: 0.7px;
     margin: 6px 0px 6px 0px;
-  }
-  label.checkbox-label2 {
+}
+label.checkbox-label2 {
     display: block;
     margin: 0px 0px 7px 0px;
     font-size: 14px;
@@ -771,76 +791,82 @@ header {
     position: relative;
     padding-left: 23px;
     cursor: pointer;
-  }
-  .wrapper-3 {
+}
+.wrapper-3 {
     float: left;
     width: 100%;
     margin-bottom: 0px;
-  }
+}
 
-  .navbar-handler {
+.navbar-handler {
     display: block;
     float: right;
     margin-top: 5px;
     margin-right: 15px;
-  }
-  .navbar-handler img {
+}
+.navbar-handler img {
     width: 28px;
-  }
+}
 
-  .navbar-custom {
+.navbar-custom {
     float: left;
     margin-left: 0px;
     width: 100%;
     display: none;
-  }
-  .menu-item {
+}
+.menu-item {
     float: left;
     margin-right: 0px;
     width: 100%;
-  }
-  .menu-btn {
+}
+.menu-btn {
     float: left;
     margin-bottom: 12px;
     margin-top: 5px;
-  }
 }
+}
+
+
+
 
 /*Mobile Devices*/
-@media screen and (max-width: 519px) and (min-width: 320px) {
-  .sec-wid-left {
+@media screen and (max-width:519px) and (min-width:320px) { 
+
+
+.sec-wid-left {
     flex: 0 0 100%;
     max-width: 100%;
-  }
+}
 
-  .sec-wid-right {
+.sec-wid-right {
     flex: 0 0 100%;
     max-width: 100%;
-  }
+}
 
-  .sec-head2 h4 {
+.sec-head2 h4 {
     margin: 0px 0px 0px 0px;
     font-size: 30px;
     letter-spacing: 2px;
-  }
+}
 
-  .textual-block2 h5 {
+
+.textual-block2 h5 {
     font-size: 16px;
     margin: 14px 0px 14px 0px;
     font-weight: 500;
     letter-spacing: 0.5px;
     text-transform: capitalize;
-  }
-  .custom-btn1 {
+}
+.custom-btn1 {
     font-size: 32px;
-  }
-  .cta-box div img {
+}
+.cta-box div img {
     width: 40px;
     position: absolute;
     left: 6%;
     top: 18%;
-  }
-  .cta-box div {
+}
+.cta-box div {
     float: left;
     width: 100%;
     position: relative;
@@ -852,14 +878,14 @@ header {
     letter-spacing: 0.6px;
     line-height: 25px;
     text-transform: capitalize;
-  }
-  .sec-head3 h4 {
+}
+.sec-head3 h4 {
     width: 180px;
     margin: 7px auto;
     font-size: 30px;
     letter-spacing: 1px;
-  }
-  .step-form-head h3 span {
+}
+.step-form-head h3 span {
     border: 1px dashed black;
     text-decoration: underline;
     padding: 1px 22px;
@@ -867,14 +893,14 @@ header {
     line-height: 26px;
     font-size: 19px;
     letter-spacing: 1px;
-  }
+}
 
-  .step-form {
+.step-form {
     float: left;
     width: 100%;
     padding: 0px 20px 0px 20px;
-  }
-  label.checkbox-label1 {
+}
+label.checkbox-label1 {
     display: block;
     margin: 0px 0px 5px 0px;
     font-size: 15px;
@@ -882,46 +908,46 @@ header {
     position: relative;
     padding-left: 25px;
     cursor: pointer;
-  }
-  .custom-block3 {
+}
+.custom-block3 {
     margin-bottom: 50px;
-  }
-  .sec-head h3 {
+}
+.sec-head h3 {
     margin: 5px 0px 5px 0px;
     font-size: 32px;
     letter-spacing: 1.5px;
-  }
-  .content-block1 {
+}
+.content-block1 {
     float: left;
     width: 100%;
     padding: 30px 30px;
-  }
-  .textual-block1 {
+}
+.textual-block1 {
     float: left;
     width: 100%;
     margin-bottom: 40px;
-  }
-  .field-style1 {
+}
+.field-style1 {
     height: 45px;
     font-size: 15px;
-  }
-  .info-tag1 {
+}
+.info-tag1 {
     font-size: 14px;
     letter-spacing: 0.5px;
     font-weight: 500;
     margin-top: 10px;
-  }
-  .content-block2 {
+}
+.content-block2 {
     float: left;
     width: 100%;
     padding: 30px 30px;
-  }
-  .form-head h3 {
+}
+.form-head h3 {
     font-size: 24px;
     letter-spacing: 0.7px;
     margin: 6px 0px 6px 0px;
-  }
-  label.checkbox-label2 {
+}
+label.checkbox-label2 {
     display: block;
     margin: 0px 0px 7px 0px;
     font-size: 14px;
@@ -929,41 +955,38 @@ header {
     position: relative;
     padding-left: 23px;
     cursor: pointer;
-  }
-  .wrapper-3 {
+}
+.wrapper-3 {
     float: left;
     width: 100%;
     margin-bottom: 0px;
-  }
+}
 
-  .navbar-handler {
+
+.navbar-handler {
     display: block;
     float: right;
     margin-top: 5px;
     margin-right: 15px;
-  }
-  .navbar-handler img {
+}
+.navbar-handler img {
     width: 28px;
-  }
+}
 
-  .navbar-custom {
+.navbar-custom {
     float: left;
     margin-left: 0px;
     width: 100%;
     display: none;
-  }
-  .menu-item {
+}
+.menu-item {
     float: left;
     margin-right: 0px;
     width: 100%;
-  }
-  .menu-btn {
+}
+.menu-btn {
     float: left;
     margin-bottom: 12px;
     margin-top: 5px;
-  }
 }
-.custom-btn2:disabled,
-.custom-btn1:disabled {
-  cursor: default;
 }

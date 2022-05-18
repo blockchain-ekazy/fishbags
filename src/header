@@ -8,18 +8,9 @@
                   <a href=""> <img src="images/header-icon2.png"/> </a>   
                   <a href=""> <img src="images/header-icon3.png"/> </a>   
                </div>
-               <div class="navbar-handler"> 
-                  <img src="images/hamburger.png" />   
-               </div>
                <div class="navbar-custom">
                   <div class="menu-item">
-                     <a href=""> mint </a>
-                  </div>
-                  <div class="menu-item">
                      <a href=""> play </a>
-                  </div>
-                  <div class="menu-item">
-                     <a href=""> leaderboard </a>
                   </div>
                   <div class="menu-btn">
                      <a class="vt323" href=""> Connect Wallet</a>
