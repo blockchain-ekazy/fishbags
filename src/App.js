@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
 import "./custom.css";
 import "./App.css";
 import React, { Component, useState, useEffect } from "react";
 import Web3 from "web3";
 import detectEthereumProvider from "@metamask/detect-provider";
+import { toast } from "react-toastify";
 
 import { networks } from "./networks";
 import abi from "./abi.json";
@@ -32,7 +32,7 @@ function App() {
       const chainId = await window.ethereum.request({ method: "eth_chainId" });
 
       if (!contracts[chainId]) {
-        console.log("Unsupported Network");
+        toast.error("Unsupported Network");
         return;
       }
 
@@ -67,7 +67,7 @@ function App() {
       // );
       setUserAddress("connected");
     } else {
-      alert("Ethereum supported wallet not found");
+      toast.error("Ethereum supported wallet not found");
     }
   };
 
@@ -89,7 +89,7 @@ function App() {
           params: [{ chainId: "0x4" }],
         });
     } catch (err) {
-      console.log(err);
+      toast.error(err);
     }
   };
 
